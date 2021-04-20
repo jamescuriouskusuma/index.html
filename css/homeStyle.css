@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header{
+    display: flex;
+    background-color: #d00000;
+    height: 80px;
+    padding: 0 3%;
+    justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo-name{
+    font-size: 30px;
+    font-style: normal;
+    font-variant: small-caps;
+    color: white;
+    margin-right: 20px;
+}
+
+#logo-img{
+    font-size: 50px;
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+.search-box{
+    position: absolute;
+    top: 40px;
+    left: 1150px;
+    bottom: 30px;
+    transform: translate(-50%,-50%);
+    background-color: #dee2e6;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    /* align-items: center; */
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color:black;
+    font-size: 16px;
+    transition: 2s;
+}
+
+.search-bttn{
+    color: #6c757d;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #adb5bd;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#register{
+    display: flex;
+    background-color: black;
+    height: 20px;
+    padding: 20px 10px;
+    color: rgb(248, 248, 68);
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#Ctgry-content{
+    display: flex;
+    background-color: black;
+    height: 20px;
+    padding: 20px 10px;
+    color: rgb(248, 248, 68);
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#content{
+    display: flex;
+    padding: 0 3%;
+    height: 850px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    align-items: initial;
+}
+
+#list-ip{
+    color: white;
+    text-align: justify;
+}
+
+#title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#ctg-title1{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#ctg-title2{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#ctg-title3{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#navbar-movieA{
+    display: flex;
+    align-items: center;
+}
+
+#SH-title1{
+    display: flex;
+    font-size: 9px;
+    color: black;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+#SH-title2{
+    display: flex;
+    font-size: 9px;
+    color: black;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 9px; 
+}
+
+#SH-title3{
+    display: flex;
+    font-size: 9.5px;
+    color: black;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 6px; 
+}
+
+#SH-title4{
+    display: flex;
+    font-size: 9px;
+    color: black;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+#SH-title5{
+    display: flex;
+    font-size: 9px;
+    color: black;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 5px; 
+}
+
+.sh-contentA{
+    background-color: rgb(197, 197, 197);
+    height: 170px;
+    width: 120px;
+    padding: 15px;
+}
+
+/*(rgb(197, 197, 197);*/
+
+.sh-contentB{
+    background-color: rgb(197, 197, 197);
+    height: 180px;
+    width: 105px;
+    padding: 15px;
+}
+
+.sh-contentC{
+    background-color: rgb(197, 197, 197);
+    height: 155px;
+    width: 105px;
+    padding: 15px;
+}
+
+.ip-name{
+    color: white;
+}
+
+#image-1{
+    display: flex;
+    width: 120px;
+    height: 145px;
+    margin-left: 2px;
+}
+
+#image-2{
+    display: flex;
+    width: 120px;
+    height: 145px;    
+}
+
+#image-3{
+    display: flex;
+    width: 120px;
+    height: 145px;
+    margin-left: 1px;
+}
+
+#image-4{
+    display: flex;
+    width: 120px;
+    height: 145px;
+}
+
+#image-5{
+    display: flex;
+    width: 120px;
+    height: 145px;    
+}
+
+#footer{
+    display: flex;
+    background-color: #d00000;
+    color: white;
+    height: 80px;
+    padding: 0 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#motto{
+    font-style: italic;
+    font-weight: bold;
+}
